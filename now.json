@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@now/node-server"
+    }
+  ],
+  "env": {
+    "MONGO_URI": "mongodb+srv://ohtech:w3bfpqnCeqV528X@cluster0.aui2u.mongodb.net/ohtech-website?retryWrites=true&w=majority"
+  }
+}

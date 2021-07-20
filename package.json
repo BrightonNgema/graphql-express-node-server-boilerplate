@@ -1,0 +1,28 @@
+{
+  "name": "server-boiler-plate",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "apollo-server": "^2.9.16",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.5.8",
+    "graphql-tools": "^4.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.8.6",
+    "nodemailer": "^6.4.10",
+    "nodemon": "^2.0.2",
+    "now-env": "^3.2.0"
+  }
+}
